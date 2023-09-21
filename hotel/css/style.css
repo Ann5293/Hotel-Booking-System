@@ -1,0 +1,71 @@
+* {
+	color: black;
+}
+
+html, body {
+	height: 100%;
+}
+
+#navbar li a {
+	color: #eee;
+}
+#navbar li:hover a {
+	color: #fff;
+	text-decoration: underline; 
+}
+
+.page-container {
+	padding-top: 60px;
+}
+
+.footer-container {
+	position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 12px;
+    width: 100%;
+    margin: auto;
+    background-color: #262b6b;
+}
+
+header {
+	box-shadow: 0px 5px 5px #6c757d6b;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+}
+
+.book-button {
+	background-color: #d39e00;
+	color: #333;
+}
+
+.hotel-img {
+	width: calc(100% + 30px);
+    margin-left: -15px;
+    z-index: 9;
+}
+
+@media screen and (max-width:1500px) {
+  .fill {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .fill {
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .fill {
+    padding: 55px;
+  }
+}
+
+@media screen and (max-width:440px) {
+  .fill {
+    padding: 110px;
+  }
+}
