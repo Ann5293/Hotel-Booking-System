@@ -2,5 +2,5 @@
 http://hotelbookingphp.000.pe/
 
 # Login
-Email: admin@gmail.com
-Password: password
+- Email: admin@gmail.com
+- Password: password
